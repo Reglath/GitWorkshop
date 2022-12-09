@@ -11,7 +11,7 @@ namespace SkeletonProject
         public void PrintHoroscope()
         {
             var horoscope = "rat";
-            Console.WriteLine(horoscope);
+            Console.WriteLine($"Your future looks like {horoscope}");
         }
     }
 }
