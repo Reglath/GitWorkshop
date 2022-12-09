@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SkeletonProject
 {
-    public class StartingOut
+    public class Future
     {
         public void PrintHoroscope()
         {
