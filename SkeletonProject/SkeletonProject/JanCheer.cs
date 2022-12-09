@@ -11,7 +11,7 @@ namespace SkeletonProject
         public string text = "C#";
         public void Cheer()
         {
-            Console.WriteLine(text);
+            Console.WriteLine($"Cheer for the {text}.");
         }
     }
 }
