@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SkeletonProject
 {
-    internal class StartingOut
+    public class Future
     {
+        public void PrintHoroscope()
+        {
+            var horoscope = "rat";
+            Console.WriteLine(horoscope);
+        }
     }
 }

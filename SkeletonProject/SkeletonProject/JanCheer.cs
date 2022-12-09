@@ -8,9 +8,10 @@ namespace SkeletonProject
 {
     public class JanCheer
     {
+        public string text = "C#";
         public void Cheer()
         {
-            Console.WriteLine("Tribes (M)");
+            Console.WriteLine(text);
         }
     }
 }
