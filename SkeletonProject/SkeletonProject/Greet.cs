@@ -8,9 +8,9 @@ namespace SkeletonProject
 {
     internal class Greet
     {
-        public void Greetings(string name)
+        public void Greetings(string firstname, string lastname)
         {
-            Console.WriteLine($"Greetings {name}!");
+            Console.WriteLine($"Greetings, {firstname} {lastname}!");
         }
     }
 }
