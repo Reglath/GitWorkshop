@@ -12,7 +12,7 @@ namespace SkeletonProject
         public string secondText = "IC#";
         public void Cheer()
         {
-            Console.WriteLine(text);
+            Console.WriteLine($"Cheer for the {text}.");
         }
     }
 }
