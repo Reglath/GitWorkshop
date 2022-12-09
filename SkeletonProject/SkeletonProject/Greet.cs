@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SkeletonProject
 {
-    public class Jarda
+    internal class Greet
     {
-        public void Count(int age)
+        public void Greetings()
         {
-            Console.WriteLine(age);
+            Console.WriteLine("Hello, i386DX!");
         }
     }
 }
