@@ -10,8 +10,9 @@ namespace SkeletonProject
     {
         public void PrintHoroscope()
         {
-            var horoscope = "rat";
-            Console.WriteLine(horoscope);
+            var text = "My horoscope sign is";
+            var sign = "pisces";
+            Console.WriteLine($"{text} {sign}.");
         }
     }
 }

@@ -8,7 +8,7 @@ namespace SkeletonProject
 {
     public class Jarda
     {
-        public void Count(int age)
+        public void Count(int month, int year)
         {
             Console.WriteLine("Counting the countless"+age);
         }
