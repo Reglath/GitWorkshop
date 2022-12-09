@@ -8,9 +8,9 @@ namespace SkeletonProject
 {
     public class Jarda
     {
-        public void Count()
+        public void Count(int age)
         {
-            Console.WriteLine(33);
+            Console.WriteLine(age);
         }
     }
 }
