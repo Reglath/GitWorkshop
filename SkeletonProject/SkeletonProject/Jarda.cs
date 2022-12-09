@@ -10,7 +10,7 @@ namespace SkeletonProject
     {
         public void Count(int month, int year)
         {
-            Console.WriteLine($"Was born in {month} month {year} year!");
+            Console.WriteLine("Counting the countless"+age);
         }
     }
 }
