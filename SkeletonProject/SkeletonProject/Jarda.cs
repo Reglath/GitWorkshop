@@ -8,9 +8,9 @@ namespace SkeletonProject
 {
     public class Jarda
     {
-        public void Count(int age)
+        public void Count(int month)
         {
-            Console.WriteLine(age);
+            Console.WriteLine($"Was born in {month}!");
         }
     }
 }
